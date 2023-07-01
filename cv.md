@@ -7,3 +7,7 @@
 * ___Phone:___ +79995186183
 * ___E-mail:___ ngtaranina@gmail.com
 * ___Telegram:___ @NG Taranina
+***
+## About myself:
+***
+## My skills and proficiency:
