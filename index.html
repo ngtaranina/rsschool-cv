@@ -17,23 +17,95 @@
                 <li class="header-ul-li">Contacts</li>
                 <li class="header-ul-li">About me</li>
                 <li class="header-ul-li">Education</li>
+                <li class="header-ul-li">Skills</li>
                 <li class="header-ul-li">Code</li>
-                <li class="header-ul-li">Courses</li>
                 <li class="header-ul-li">Languages</li>
             </ul>
         </div>
     </header> 
     <main>
         <div class = "container">
-            <div class="main-content">
-                <div class="main-content-elements">
-                    <img class="photo" src="./assets/img/1P7A2154.jpg" alt="my photo"> 
+            <div class="main-container">
+                <!--Первый столбец c данными--> 
+                <div class = "main-content-l">
+                    <div class="main-content-elements">
+                        <img class="photo" src="./assets/img/1P7A2154.jpg" alt="my photo"> 
+                    </div>
+                    <div class="main-content-elements">
+                        <h1>Nataliya Taranina</h1>
+                        <h3>RS-School student</h3>  
+                    </div>
+                    <div class="main-content-elements">
+                        <h3>CONTACTS:</h3>
+                        <ul class="main-ul">
+                            <li class="main-ul-li">discort: @ngtaranina</li>
+                            <li class="main-ul-li">phone: +79995186183</li>
+                            <li class="main-ul-li">telrgram:@NG Taranina</li>
+                        </ul>  
+                    </div>
                 </div>
-                <div class="main-content-elements">
-                    <h1>Nataliya Taranina</h1>
-                    <h2>RS-School student</h2>  
+                <!--Второй столбец c данными--> 
+                <div class = "main-content-r">
+                    <div class = "main-content-next" >
+                        <div class="main-content-next-elements">
+                            <h3>ABOUT ME:</h3>
+                            <p>Hello! My name is Nataliya Taranina. <br> 
+                            I am a student of RS School JS/FE Pre School. 
+                            It's my second try. <br> 
+                            I hope I could do it this time.
+                            </p>
+                            <hr>  
+                        </div>
+                        <div class="main-content-next-elements">
+                            <h3>EDUCATION:</h3>
+                            <ul class="main-ul">
+                                <li class="main-ul-li">V. N. Karazin Kharkiv National University</li>
+                                <li class="main-ul-li">Kharkiv State Academy of Physical Culture</li>
+                            </ul> 
+                            <hr>  
+                        </div>
+                        <div class="main-content-next-elements">
+                            <h3>SKILLS:</h3>
+                            <ul class="main-ul">
+                                <li class="main-ul-li">Basics HTML</li>
+                                <li class="main-ul-li">Basics CSS</li>
+                                <li class="main-ul-li">Basics JS</li>
+                            </ul> 
+                            <hr>  
+                        </div>
+                        <div class="main-content-next-elements">
+                            <h3>CODE:</h3>
+                            <pre class = "code">
+    function getParticipants(handshakes){
+        if (handshakes==0) return (0);
+            else {
+                if (handshakes==1)  return (2);
+                    else {
+                        let participants = 3
+                        getMaxHandshakes = () => participants * (participants - 1)/2;
+
+                        while (getMaxHandshakes(participants) < handshakes) {
+                            participants++;
+                        }
+                        console.log(participants);
+                        return( participants)
+                    }  
+            }
+        }
+                            </pre>
+                            <hr>  
+                        </div>
+                        <div class="main-content-next-elements">
+                            <h3>LANGUAGES:</h3>
+                            <ul class="main-ul">
+                                <li class="main-ul-li">Rasian: Native</li>
+                                <li class="main-ul-li">Ukrainian: C1-Advanced </li>
+                                <li class="main-ul-li">English: B2-Intermediate</li>
+                            </ul> 
+                            <hr>  
+                        </div>
+                    </div>
                 </div>
-              
             </div>
         </div>
     </main>
