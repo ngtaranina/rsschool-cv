@@ -82,9 +82,9 @@
                 if (handshakes==1)  return (2);
                     else {
                         let participants = 3
-                        getMaxHandshakes = () => participants * (participants - 1)/2;
+                        getMaxHandshakes = () =&gt participants * (participants - 1)/2;
 
-                        while (getMaxHandshakes(participants) < handshakes) {
+                        while (getMaxHandshakes(participants) &lt handshakes) {
                             participants++;
                         }
                         console.log(participants);
