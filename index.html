@@ -12,16 +12,16 @@
 </head>
 <body>
     <header class = "header"> 
-        <div class = "container">
+        <nav class = "container">
             <ul class = "header-ul">
-                <li class="header-ul-li">Contacts</li>
-                <li class="header-ul-li">About me</li>
-                <li class="header-ul-li">Education</li>
-                <li class="header-ul-li">Skills</li>
-                <li class="header-ul-li">Code</li>
-                <li class="header-ul-li">Languages</li>
+                <li class="header-ul-li"><a href="#Contacts_link">Contacts</a></li>
+                <li class="header-ul-li"><a href="#About_me_link">About me</a></li>
+                <li class="header-ul-li"><a href="#Education_link">Education</a></li>
+                <li class="header-ul-li"><a href="#Skills_link">Skills</a></li>
+                <li class="header-ul-li"><a href="#Code_link">Code</a></li>
+                <li class="header-ul-li"><a href="#Languages_link">Languages</a></li>
             </ul>
-        </div>
+        </nav>
     </header> 
     <main>
         <div class = "container">
@@ -36,8 +36,8 @@
                         <h3>RS-School student</h3>  
                     </div>
                     <div class="main-content-elements">
-                        <h3>CONTACTS:</h3>
-                        <ul class="main-ul">
+                        <h3 id = "contacts_link">CONTACTS:</h3>
+                        <ul  class="main-ul">
                             <li class="main-ul-li">discort: @ngtaranina</li>
                             <li class="main-ul-li">phone: +79995186183</li>
                             <li class="main-ul-li">telrgram:@NG Taranina</li>
@@ -48,7 +48,7 @@
                 <div class = "main-content-r">
                     <div class = "main-content-next" >
                         <div class="main-content-next-elements">
-                            <h3>ABOUT ME:</h3>
+                            <h3 id = "#About_me_link">ABOUT ME:</h3>
                             <p>Hello! My name is Nataliya Taranina. <br> 
                             I am a student of RS School JS/FE Pre School. 
                             It's my second try. <br> 
@@ -57,7 +57,7 @@
                             <hr>  
                         </div>
                         <div class="main-content-next-elements">
-                            <h3>EDUCATION:</h3>
+                            <h3 id = "Education_link">EDUCATION:</h3>
                             <ul class="main-ul">
                                 <li class="main-ul-li">V. N. Karazin Kharkiv National University</li>
                                 <li class="main-ul-li">Kharkiv State Academy of Physical Culture</li>
@@ -65,7 +65,7 @@
                             <hr>  
                         </div>
                         <div class="main-content-next-elements">
-                            <h3>SKILLS:</h3>
+                            <h3 id = "Skills_link">SKILLS:</h3>
                             <ul class="main-ul">
                                 <li class="main-ul-li">Basics HTML</li>
                                 <li class="main-ul-li">Basics CSS</li>
@@ -74,7 +74,7 @@
                             <hr>  
                         </div>
                         <div class="main-content-next-elements">
-                            <h3>CODE:</h3>
+                            <h3 id = "Code_link">CODE:</h3>
                             <pre class = "code">
     function getParticipants(handshakes){
         if (handshakes==0) return (0);
@@ -96,13 +96,12 @@
                             <hr>  
                         </div>
                         <div class="main-content-next-elements">
-                            <h3>LANGUAGES:</h3>
+                            <h3 id = "Languages_link">LANGUAGES:</h3>
                             <ul class="main-ul">
-                                <li class="main-ul-li">Rasian: Native</li>
+                                <li class="main-ul-li">Rusian: Native</li>
                                 <li class="main-ul-li">Ukrainian: C1-Advanced </li>
                                 <li class="main-ul-li">English: B2-Intermediate</li>
                             </ul> 
-                            <hr>  
                         </div>
                     </div>
                 </div>
@@ -112,8 +111,15 @@
     <footer class = "footer">
         <div class = "container">
             <div class="for-logo">
-                <img class="logo" src="./assets/png/logo rsschool(1).png" alt="logo RS-School"> 
-                <img class= "logo" src="./assets/png/logo github (2).png" alt="logo Github">   
+                <a class="for-logo-element" href="https://rs.school/" target="_blank">
+                    <img class="logo" src="./assets/png/logo rsschool(1).png" alt="logo RS-School">
+                </a>
+                <a class="for-logo-element" href="https://rs.school/js-stage0/" target="_blank">
+                    <p class="for-logo-element">2023</p>
+                </a>
+                <a class="for-logo-element" href="https://github.com/ngtaranina" target="_blank">
+                    <img class= "logo" src="./assets/png/logo github (2).png" alt="logo Github">
+                </a>
             </div>
             
         </div>
