@@ -134,8 +134,5 @@ footer{
     width: 30%;
 }
 .code{
-    background-color: aqua;
-    font-style: italic;
-    color: rgb(5, 5, 56);
-    text-align:left;
+    width: 75%;
 }
