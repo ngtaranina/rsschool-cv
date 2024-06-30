@@ -9,6 +9,7 @@
 * ___Telegram:___ @NG Taranina
 ***
 ## About myself:
+### I am 53 years old. Started studying Frontend. It's my second try. I hope that I could do it.
 ***
 ## My skills and proficiency:
 ***
