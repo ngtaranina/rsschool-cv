@@ -12,6 +12,7 @@
 ### I am 53 years old. Started studying Frontend. It's my second try. I hope that I could do it.
 ***
 ## My skills and proficiency:
+### I'd studied mathematics in Kharkov University. I am a teacher of mathematic now.
 ***
 ## Exemple of my code:
 ### Codwars kata:
