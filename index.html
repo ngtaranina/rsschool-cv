@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/ico/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="navigater">
+                <ul class="navigater__ul">
+                    <li class="navigater__li"><a href="#Contacts_link">Contacts</a></li>
+                    <li class="navigater__li"><a href="#About_me_link">About me</a></li>
+                    <li class="navigater__li"><a href="#Education_link">Education</a></li>
+                    <li class="navigater__li"><a href="#Skills_link">Skills</a></li>
+                    <li class="navigater__li"><a href="#Code_link">Code</a></li>
+                    <li class="navigater__li"><a href="#Languages_link">Languages</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <!--Первый столбец c данными-->
+            <div class="content-left">
+                <div class="content-left__photo">
+                    <img class="photo" src="./assets/img/IMG_6438.JPG" alt="my photo">
+                </div>
+                <div class="content-left__titles">
+                    <h1>Nataliya Taranina</h1>
+                    <h2>RS-School student</h2>
+                    <p>Stage 0</p>
+                </div>
+                <div class="content-left__elements">
+                    <h2 id="content-left__link">CONTACTS:</h2>
+                    <ul class="content-left__ul">
+                        <li class="content-left_li">phone: +79995186183</li>
+                        <li class="content-left_li">discort: @ngtaranina</li>
+                        <li class="content-left_li">telrgram:@NG Taranina</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="line"></div>
+            <!--Второй столбец c данными-->
+            <div class="content-right">
+                <div class="content-right__elements">
+                    <h2 id="About_me_link">ABOUT ME:</h2>
+                    <p>Hello! My name is Nataliya Taranina. <br>
+                        I am a student of RS School JS/FE Pre School.
+                        It's my second try. <br>
+                        I hope I could do it this time.
+                    </p>
+
+                </div>
+                <div class="content-right__elements">
+                    <hr>
+                    <h2 id="Education_link">EDUCATION:</h2>
+                    <ul class="main-list">
+                        <li class="main-list__li">V. N. Karazin Kharkiv National University</li>
+                        <li class="main-list__li">Kharkiv State Academy of Physical Culture</li>
+                    </ul>
+
+                </div>
+                <div class="content-right__elements">
+                    <hr>
+                    <h2 id="Skills_link">SKILLS:</h2>
+                    <ul class="main-list">
+                        <li class="main-list__li">Basics HTML</li>
+                        <li class="main-list__li">Basics CSS</li>
+                        <li class="main-list__li">Basics JS</li>
+                    </ul>
+
+                </div>
+                <div class="content-right__elements">
+                    <hr>
+                    <h2 id="Code_link">CODE:</h2>
+                    <pre>
+                            <code>
+                                function getParticipants(handshakes){
+                                    if (handshakes==0) return (0);
+                                       else {
+                                            if (handshakes==1)  return (2);
+                                                else {
+                                                    let participants = 3
+                                                    getMaxHandshakes = () => participants * (participants - 1)/2;
+                                
+                                                    while (getMaxHandshakes(participants) &lt; handshakes) {
+                                                        participants++;
+                                                    }
+                                                    console.log(participants);
+                                                    return( participants)
+                                                }  
+                                        }
+                                    }
+                            </code>
+                        </pre>
+                    <img class="code" src="assets/screenshot/code.png" alt="exemple of my code">
+
+                </div>
+                <div class="content-right__elements">
+                    <hr>
+                    <h2 id="Languages_link">LANGUAGES:</h2>
+                    <ul class="main-list">
+                        <li class="main-list__li">Rusian: Native</li>
+                        <li class="main-list__li">Ukrainian: C1 - Advanced </li>
+                        <li class="main-list__li">English: B1 - Pre-Intermediate</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="logo">
+                <a class="logo__element" href="https://rs.school/" target="_blank">
+                    <img class="logo-img" src="./assets/logo/logo-rsschool.svg" alt="logo RS-School">
+                </a>
+                <a class="logo__element" href="https://old.rs.school/js-stage0/" target="_blank">
+                    <p class="for-logo-element">2024</p>
+                </a>
+                <a class="logo__element" href="https://github.com/ngtaranina" target="_blank">
+                    <img class="logo-img" src="./assets/logo/GitHub-Logo.png" alt="logo Github">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
